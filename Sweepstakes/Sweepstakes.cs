@@ -8,5 +8,9 @@ namespace Sweepstakes
 {
     class Sweepstakes
     {
+        private Dictionary<int, Contestant> contestants;
+        private string name;
+        public string Name;
+
     }
 }
