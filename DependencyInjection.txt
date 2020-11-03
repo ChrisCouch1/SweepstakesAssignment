@@ -1,0 +1,6 @@
+-Dependency Injection on the MarketingFirm class object-
+
+The constructor for the MarketingFirm class included a parameter for an ISweepstakesManager.
+This interface is inherited by a QueueManager and a StackManager, allowing the MarketingFirm
+to be created using either type of colletion manager. So, if the user prefered either type then
+it will be able to accomodate.

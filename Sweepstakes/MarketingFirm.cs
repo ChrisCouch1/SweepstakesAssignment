@@ -14,9 +14,10 @@ namespace Sweepstakes
         {
 
         }
-        public void CreateSweepstakes()
+        public void CreateSweepstakes(string sweepstakesName)
         {
-
+            Sweepstakes sweepstakes = new Sweepstakes(sweepstakesName);
+            
         }
     }
 }
