@@ -36,9 +36,9 @@ namespace Sweepstakes
         }
         public Contestant PickWinner()
         {
-            List<int> keyList = new List<int>(contestants.Keys);
-            int randomConstestantKey = keyList[random.Next(keyList.Count)];
-            return contestants[randomConstestantKey];
+            //List<int> keyList = new List<int>(contestants.Keys);
+            Contestant randomConstestant = contestants[random.Next(contestants.Count)];
+            return randomConstestant;
 
         }   
         public void PrintContestantInfo(Contestant contestant)

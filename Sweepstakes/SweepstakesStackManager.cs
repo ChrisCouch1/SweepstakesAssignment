@@ -8,7 +8,7 @@ namespace Sweepstakes
 {
     class SweepstakesStackManager : ISweepstakesManager
     {
-        private Stack<Sweepstakes> stack;
+        private Stack<Sweepstakes> stack = new Stack<Sweepstakes>();
         public void InsertSweepstakes(Sweepstakes sweepstakes)
         {
             stack.Push(sweepstakes);
