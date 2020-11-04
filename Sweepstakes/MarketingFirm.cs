@@ -12,7 +12,7 @@ namespace Sweepstakes
 
         public MarketingFirm(ISweepstakesManager manager)
         {
-
+            _manager = manager;
         }
         public void CreateSweepstakes(string sweepstakesName)
         {
